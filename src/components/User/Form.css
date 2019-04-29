@@ -1,3 +1,43 @@
+.contain{
+    background-image: url(./image/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 100px;
+}
 .card{
-    background-image: url(/public/assets/card-background.png)
+    background-image: url(./image/card-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 42px;
+    margin-left: 35px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    padding-right: 5px;
+}
+.logo{
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.logo img{
+    width: 100%;
+}
+.user{
+    margin-top: 34px;
+}
+.user-prop{
+    height: 40px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.user-prop .icon{
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+.user-prop .icon img{
+    width: 100%;
+}
+.user-prop .title{
+    margin-right: 6px;
 }
