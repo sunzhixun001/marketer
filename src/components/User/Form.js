@@ -57,7 +57,12 @@ export default class User extends React.Component {
         fetch(`/user/${id}`)
         .then(r => r.json())
         .then(response => {
-            success && success(response.data);
+            const {data, code, message} = response
+            if(code === 200 && message === 'OK'){
+                success && success(data);
+            }else{
+                alert(message);
+            }
         });
         // axios.get('/api/user/2');
     }
