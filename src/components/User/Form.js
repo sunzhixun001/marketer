@@ -7,7 +7,7 @@ class UserProp extends React.Component {
         return (
             <div className='user-prop'>
                 <div className='left'>
-                    <div className='icon'><img src={'assets/' + icon + '.png'}></img></div>
+                    <div className='icon'><img src={`/assets/${icon}.png`}></img></div>
                     <div className='title'>{title}： </div>
                 </div>
                 <div className='value'>{value}</div>
@@ -34,7 +34,7 @@ export default class User extends React.Component {
             <div className='box'>
                 <div className='contain'>
                     <div className='card'>
-                        <div className='logo'><img src='assets/logo.png'></img></div>
+                        <div className='logo'><img src='/assets/logo.png'></img></div>
                         <div className='user'>
                             <UserProp title='编号' value={this.state.userNo} icon='no'></UserProp>
                             <UserProp title='姓名' value={this.state.realName} icon='name'></UserProp>

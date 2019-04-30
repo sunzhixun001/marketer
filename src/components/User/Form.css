@@ -2,20 +2,20 @@ html, body, #root, .App{
     height: 100%;
 }
 .box{
-    background-image: url(./image/bottom-background.png);
+    background-image: url(image/bottom-background.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: 100% 0%;
     height: 100%;
 }
 .contain{
-    background-image: url(./image/background.png);
+    background-image: url(image/background.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 100px;
 }
 .card{
-    background-image: url(./image/card-background.png);
+    background-image: url(image/card-background.png);
     background-repeat: no-repeat;
     background-size: 99%;
     margin-right: 40px;
