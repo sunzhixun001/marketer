@@ -1,3 +1,13 @@
+html, body, #root, .App{
+    height: 100%;
+}
+.box{
+    background-image: url(./image/bottom-background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 100% 0%;
+    height: 100%;
+}
 .contain{
     background-image: url(./image/background.png);
     background-repeat: no-repeat;
@@ -7,11 +17,11 @@
 .card{
     background-image: url(./image/card-background.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-right: 42px;
-    margin-left: 35px;
-    padding-top: 80px;
-    padding-bottom: 70px;
+    background-size: 99%;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 60px;
+    padding-bottom: 62px;
     padding-right: 5px;
 }
 .logo{
@@ -22,22 +32,34 @@
     width: 100%;
 }
 .user{
-    margin-top: 34px;
+    margin-top: 20px;
 }
 .user-prop{
-    height: 40px;
+    height: 42px;
     display: flex;
+    align-items: center;
     margin-left: 50px;
     margin-right: 10px;
 }
+.user-prop .left{
+    width: 80px;
+    display: flex;
+}
 .user-prop .icon{
-    margin-right: 10px;
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    /* height: 15px; */
 }
 .user-prop .icon img{
-    width: 100%;
+    width: 12px;
 }
 .user-prop .title{
-    margin-right: 6px;
+    width: 60px;
+}
+.user-prop .value{
+    letter-spacing: 4px;
+    flex: 1;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    text-align: left;
 }
