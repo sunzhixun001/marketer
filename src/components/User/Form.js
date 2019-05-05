@@ -44,6 +44,15 @@ export default class User extends React.Component {
                             <UserProp title='地址' value={this.state.address} icon='address'></UserProp>
                         </div>
                     </div>
+                    <div>
+                        <table>
+                            <tr><td>{document.body.clientWidth}</td></tr>
+                            <tr><td>{document.body.offsetWidth}</td></tr>
+                            <tr><td>{document.body.scrollWidth }</td></tr>
+                            <tr><td>{window.screen.width }</td></tr>
+                            <tr><td>{window.screen.availWidth  }</td></tr>
+                        </table>
+                    </div>
                 </div>
             </div>
         )
