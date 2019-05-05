@@ -41,7 +41,7 @@ export default class User extends React.Component {
                             <UserProp title='手机' value={this.state.mobile} icon='mobile'></UserProp>
                             <UserProp title='公司' value={this.state.company} icon='company'></UserProp>
                             <UserProp title='职位' value={this.state.position} icon='job'></UserProp>
-                            <UserProp title='地址' value={'环球港环球港环球港环球港环球港环球港环球港环球港环球港环球港环球港环球港环球港环球港环球港环球港环球港环球港环球港环球港环球港环球港'} icon='address'></UserProp>
+                            <UserProp title='地址' value={this.state.address} icon='address'></UserProp>
                         </div>
                     </div>
                 </div>
