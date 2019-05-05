@@ -42,9 +42,9 @@ html, body, #root, .App{
     margin-top: 20px;
 }
 .user-prop{
-    height: 2.8rem;
+    min-height: 2.5rem;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-left: 10%;
     margin-right: 10px;
 }
@@ -66,7 +66,8 @@ html, body, #root, .App{
     letter-spacing: 4px;
     flex: 1;
     overflow: hidden;
-    text-overflow:ellipsis;
-    white-space: nowrap;
+    /* text-overflow:ellipsis; */
+    /* white-space: nowrap; */
     text-align: left;
+    max-height: 4rem;
 }
