@@ -54,7 +54,7 @@ export default class User extends React.Component {
         }});
     }
     getUser = ({id, success}) => {
-        fetch(`/user/${id}`)
+        fetch(`/api/user/${id}`)
         .then(r => r.json())
         .then(response => {
             const {data, code, message} = response
